@@ -1,102 +1,55 @@
-Customer Churn Prediction using ANN
-📌 Project Overview
+# Customer Churn Prediction Using Artificial Neural Network
 
-This project focuses on predicting whether a customer will stay with a company or leave (churn) using an Artificial Neural Network (ANN).
-The model is trained on a churn dataset and deployed as an interactive web application using Streamlit.
+## Overview
 
-The system helps businesses identify potential churn customers in advance so that retention strategies can be applied.
+This project is a customer churn prediction system that identifies whether a customer is likely to stay with a company or leave (churn).  
+It is built using an Artificial Neural Network (ANN) and trained on historical customer data.
 
-🧠 Project Structure
+The trained model is deployed as an interactive web application using Streamlit, allowing users to input customer details and receive real-time churn predictions.
 
-The project consists of three main parts:
+---
 
-1. Model Training
+## Objective
 
-Data preprocessing (encoding, scaling, feature selection)
+The objective of this project is to build an intelligent machine learning system capable of predicting customer churn using deep learning techniques, and to demonstrate practical deployment of a trained ANN model through a web-based interface.
 
-Building an Artificial Neural Network (ANN)
+---
 
-Training the model on historical customer churn data
+## Features
 
-Saving the trained model for later use
+- Predicts whether a customer will stay or churn
+- Binary classification using Artificial Neural Network (ANN)
+- Real-time predictions through a Streamlit web application
+- Data preprocessing including encoding and scaling
+- Pretrained model loading for inference
+- Clean and modular project structure
+- Easily extendable to other customer datasets
 
-2. Model Prediction
+---
 
-Loading the trained ANN model
+## Model and Methodology
 
-Accepting new customer data as input
+- Task: Binary classification (Churn / No Churn)
+- Model: Artificial Neural Network (ANN)
+- Framework: TensorFlow / Keras
+- Data Processing:
+  - Encoding of categorical features
+  - Feature scaling
+- Input: Customer attributes
+- Output: Churn prediction label
 
-Predicting whether the customer will Stay or Churn
+---
 
-3. Web App & Deployment (Streamlit)
+## Technology Stack
 
-User-friendly interface built using Streamlit
-
-Input fields for customer features
-
-Real-time prediction display
-
-Ready for deployment as a web application
-
-⚙️ Tech Stack
-
-Programming Language: Python
-
-Machine Learning:
-
-TensorFlow / Keras (ANN Model)
-
-Scikit-learn (Preprocessing, Scaling, Encoding)
-
-Data Handling: Pandas, NumPy
-
-Visualization: Matplotlib, Seaborn (for EDA)
-
-Web Framework: Streamlit
-
-Deployment: Streamlit Cloud / Local Server
-
-🚀 How to Run
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the Streamlit app
-
-streamlit run app.py
-
-
-Enter customer details and get churn prediction.
-
-📊 Output
-
-The model predicts:
-
-0 → Customer will stay
-
-1 → Customer will churn
-
-👩‍💻 Author
-
-Aqusa Abid
-
-⭐ Acknowledgement
-
-Thanks to open-source datasets and libraries that made this project possible.
-
-🚀 Connect With Me
-
-📧 Email: aqusa.abid@gmail.com
-🔗 LinkedIn:
-🐙 GitHub: https://github.com/aqusa-abid
-Thanks for checking out this project!
-
-If this project helped you, feel free to ⭐ star the repo and share it with others learning 
-
-This project is for educational purposes only.
-
+- Python
+- TensorFlow / Keras
+- Scikit-learn
+- Pandas
+- NumPy
+- Streamlit
+- Matplotlib
+- Seaborn
 ---
 
 
